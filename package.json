@@ -1,0 +1,17 @@
+{
+  "name": "bailbridge-doc-engine",
+  "version": "1.0.0",
+  "description": "BailBridge legal document generation engine — standalone PDF drafting logic",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node index.js",
+    "generate:bail": "node index.js bail-application",
+    "generate:fir": "node index.js fir-request",
+    "generate:dlsa": "node index.js dlsa-application",
+    "generate:protest": "node index.js memo-of-protest"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.2"
+  }
+}
